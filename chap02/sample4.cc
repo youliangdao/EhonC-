@@ -1,6 +1,14 @@
-#include <stdio.h>
+typedef enum
+{
+	Poodle,
+	Shiba,
+	Chihuahua,
+	Bulldog,
+} E_Dog;
 
-enum class Colors {Red, Green, Blue, Yellow, White};
-enum class PencilColors {Red, Black};
+int main(void)
+{
+	E_Dog dog = Poodle;
 
-
+	return 0;
+}
